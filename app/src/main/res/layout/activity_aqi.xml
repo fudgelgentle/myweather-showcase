@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_aqi"
+    tools:context=".AQIActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/aqi_container"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0"
+        android:orientation="vertical"
+        style="@style/edgePadding"
+        >
+
+        <include layout="@layout/header"></include>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AQI:"
+            android:id="@+id/aqi_title"
+            style="@style/primaryText"
+            app:layout_constraintTop_toBottomOf="@+id/heading"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:paddingBottom="10dp"
+            />
+
+        <include layout="@layout/summary_for_numbers"></include>
+
+    </LinearLayout>
+
+
+<!--    <include-->
+<!--        layout="@layout/navbar"></include>-->
+    <cse340.finalproject.NavbarView
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@drawable/border_radius"
+    />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

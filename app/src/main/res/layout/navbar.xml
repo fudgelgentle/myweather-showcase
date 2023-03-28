@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/navbar"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:background="@drawable/nav_background"
+    >
+
+<!--    app:layout_constraintBottom_toBottomOf="parent"-->
+<!--    app:layout_constraintEnd_toEndOf="parent"-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        android:gravity="center"
+        style="@style/navContainer"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/navIconMargins"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/home_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:baselineAlignBottom="true"
+                android:contentDescription="@string/home_icon_desc"
+                android:src="@drawable/home"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/home_icon"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/navbar_text_color"
+                style="@style/navbarText"
+            />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/navIconMargins"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/temperature_icon"
+                android:src="@drawable/temperature"
+                android:layout_gravity="center_horizontal"
+                android:contentDescription="@string/temp_icon_desc">
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/temp_icon"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/navbar_text_color"
+                style="@style/navbarText"
+            />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/navIconMargins"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/humidity_icon"
+                android:src="@drawable/humidity"
+                android:layout_gravity="center_horizontal"
+                android:contentDescription="@string/humidity_icon_desc">
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/humidity_icon"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/navbar_text_color"
+                style="@style/navbarText"
+            />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/navIconMargins"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/aqi_icon"
+                android:src="@drawable/aqi"
+                android:layout_gravity="center_horizontal"
+                android:contentDescription="@string/aqi_icon_desc">
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/aqi_icon"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/navbar_text_color"
+                style="@style/navbarText"
+            />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

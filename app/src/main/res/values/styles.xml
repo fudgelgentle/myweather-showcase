@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:fontFamily">@font/inter_regular</item>
+        <item name="fontFamily">@font/inter_regular</item> <!-- target android sdk versions < 26 and > 14 if theme other than AppCompat -->
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Header">
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+    </style>
+
+    <style name="navContainer">
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+    </style>
+
+    <style name="edgePadding">
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingRight">20dp</item>
+    </style>
+
+    <style name="negateEdgePadding">
+        <item name="android:layout_marginLeft">-20dp</item>
+        <item name="android:layout_marginRight">-20dp</item>
+    </style>
+
+    <style name="summaryPadding">
+        <item name="android:paddingTop">70dp</item>
+        <item name="android:paddingLeft">30dp</item>
+        <item name="android:paddingRight">30dp</item>
+        <item name="android:paddingBottom">60dp</item>
+    </style>
+
+    <style name="sfnPadding">
+        <item name="android:paddingTop">50dp</item>
+        <item name="android:paddingLeft">30dp</item>
+        <item name="android:paddingRight">30dp</item>
+        <item name="android:paddingBottom">60dp</item>
+    </style>
+
+    <style name="sfn">
+        <item name="android:textSize">42dp</item>
+    </style>
+
+    <style name="h1">
+        <item name="android:textSize">28dp</item>
+    </style>
+
+    <style name="h2">
+        <item name="android:textSize">24dp</item>
+    </style>
+
+    <style name="h3">
+        <item name="android:textSize">18dp</item>
+    </style>
+
+    <style name="navbarText">
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">@color/navbar_text_color</item>
+    </style>
+
+    <style name="logoPadding">
+        <item name="android:paddingTop">10dp</item>
+    </style>
+
+    <style name="navIconMargins">
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+    </style>
+
+    <style name="primaryText">
+        <item name="android:textSize">18dp</item>
+    </style>
+
+</resources>

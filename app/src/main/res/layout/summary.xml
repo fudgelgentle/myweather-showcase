@@ -1,0 +1,55 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/summary"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/border_radius"
+    app:layout_constraintTop_toBottomOf="@+id/summary_title">
+    <!--! Might need to change this constraint above ^^^-->
+
+    <LinearLayout
+        style="@style/summaryPadding"
+        android:id="@+id/summary_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            style="@style/h1"
+            android:id="@+id/h1_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:fontFamily="@font/inter_bold"
+            android:textStyle="bold"
+            android:text="@string/healthy_and_safe"
+            android:textColor="@color/tiffany_grey" />
+
+        <TextView
+            style="@style/h3"
+            android:id="@+id/h2_title"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="@string/healthy_and_safe_desc"
+            android:textColor="@color/tiffany_light_grey" />
+
+        <TextView
+            style="@style/primaryText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:paddingTop="30dp"
+            android:text="@string/healthy_and_safe_tips"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

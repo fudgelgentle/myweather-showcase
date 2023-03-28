@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">Final Project</string>
+
+    <string name="my_weather_title">MyWeather</string>
+    <string name="profile_icon_desc">A icon of a person face inside a circle border</string>
+
+    <string name="pin_desc">An icon of a location pin</string>
+    <string name="my_weather_desc">An logo containing a wind breeze with sun behind it,
+    and the text MyWeather</string>
+
+    <string name="healthy_and_safe">Healthy and safe!</string>
+    <string name="healthy_and_safe_desc">Sunny, healthy humidity, good AQI</string>
+    <string name="healthy_and_safe_tips">Today is a good day to go out! No need to worry about anything. Enjoy!</string>
+
+
+    <string name="home_icon">Home</string>
+    <string name="home_icon_desc">Home page</string>
+
+    <string name="temp_icon">Temp</string>
+    <string name="temp_icon_desc">Temperature page</string>
+
+    <string name="humidity_icon">Humidity</string>
+    <string name="humidity_icon_desc">Humidity page</string>
+
+    <string name="aqi_icon">AQI</string>
+    <string name="aqi_icon_desc">AQI page</string>
+
+
+    <string name="negate_edge_padding">-20dp</string>
+
+    <string name="text_size_for_numbers">36</string>
+
+    <string name="good_aqi">Good</string>
+    <string name="good_aqi_desc">Air quality is considered satisfactory, and air pollution poses little or no risk.</string>
+    <string name="moderate_aqi">Moderate</string>
+    <string name="moderate_aqi_desc">Air quality is acceptable, but some pollutants may be of moderate concern for a very small number of people who are unusually sensitive to air pollution.</string>
+    <string name="unhealthy_for_sensitive_aqi">Unhealthy for Sensitive Groups</string>
+    <string name="unhealthy_for_sensitive_aqi_desc">Members of sensitive groups, such as children, the elderly, and people with respiratory or cardiovascular disease, may experience health effects.</string>
+    <string name="unhealthy_aqi">Unhealthy</string>
+    <string name="unhealthy_aqi_desc">Everyone may begin to experience some adverse health effects, and members of sensitive groups may experience more serious effects.</string>
+    <string name="very_unhealthy_aqi">Very Unhealthy</string>
+    <string name="very_unhealthy_aqi_desc">Can cause significant harm, especially for people with respiratory or cardiovascular conditions.</string>
+    <string name="hazardous_aqi">Hazardous</string>
+    <string name="hazardous_aqi_desc">Health alert: Can cause serious harm to all groups.</string>
+
+    <string name="humid_percentage">%s%%</string>
+
+    <string name="humid_error">Failed to get humidity description</string>
+
+    <string name="extremely_low_humid">Extremely low relative humidity</string>
+    <string name="very_low_humid">Very low relative humidity</string>
+    <string name="extreme_to_low_humid_desc">Very low humidity can cause dry skin, chapped lips, and respiratory problems such as coughing, congestion, and nosebleeds. It can also damage furniture, wooden floors, and musical instruments.</string>
+    <string name="extreme_to_low_humid_tips">You should use a humidifier to add moisture to the air, drink plenty of water to stay hydrated, and use moisturizers to keep your skin hydrated.</string>
+
+    <string name="low_humid">Low relative humidity</string>
+    <string name="low_humid_desc">This humidity level is considered low. This can cause dry skin, respiratory problems, and discomfort. However, this range is suitable for certain indoor activities such as playing musical instruments or painting.</string>
+    <string name="low_humid_tips">If you experience discomfort or symptoms like dry skin and throat, consider using a humidifier to increase the moisture in the air, stay hydrated, avoid drying activities, keep your skin moisturized, and monitor the humidity level using a hygrometer.</string>
+
+    <string name="moderate_humid">Moderate relative humidity</string>
+    <string name="moderate_humid_desc">This humidity level is optimal for indoor comfort and health, as it reduces the risk of respiratory problems and allergies, prevents the growth of mold and bacteria, and improves indoor air quality. Nothing to worry here :)</string>
+
+    <string name="high_humid">High relative humidity</string>
+    <string name="high_humid_desc">This humidity level can cause discomfort, fatigue, and heat exhaustion. High humidity also promotes the growth of mold, mildew, and other harmful bacteria, which can lead to respiratory problems and allergic reactions.</string>
+    <string name="high_humid_tips">Consider using a dehumidifier, air conditioning, and proper ventilation, and address any moisture sources.</string>
+
+    <string name="very_high_humid">Very high relative humidity</string>
+    <string name="very_high_humid_desc">This humidity level can cause extreme discomfort, dehydration, and heatstroke. It can also promote the growth of mold, mildew, and other harmful bacteria, which can lead to serious health problems.</string>
+    <string name="very_high_humid_tips">You should use a dehumidifier, air conditioning, and proper ventilation, and address any moisture sources. It\'s important to monitor the humidity level using a hygrometer regularly. If these steps don\'t work, it may be necessary to consult a professional for help with reducing humidity levels.</string>
+
+    <string name="no_precipitation">No chance of raining.</string>
+    <string name="very_low_precipitation">Very low chance of raining.</string>
+    <string name="low_precipitation">Low chance of raining.</string>
+    <string name="moderate_precipitation">Moderate chance of raining.</string>
+    <string name="moderate_precipitation_tips">It\'s a good idea to bring rain gear or have alternate plans.</string>
+    <string name="high_precipitation">High chance of raining.</string>
+    <string name="high_precipitation_tips">Bring rain gear and have alternate plans.</string>
+    <string name="very_high_precipitation">Very high chance of raining.</string>
+    <string name="very_high_precipitation_tips">Bring rain gear and have alternate plans.</string>
+
+    <string name="extremely_cold">Extremely cold.</string>
+    <string name="extremely_cold_tips">At these temperatures, exposed skin can freeze in a matter of minutes, and it\'s important to take precautions to avoid hypothermia.</string>
+    <string name="very_cold">Very cold.</string>
+    <string name="very_cold_tips">This is the temperature range where frostbite and hypothermia are still a significant risk, and it\'s important to dress warmly and limit time spent outside.</string>
+    <string name="cold">Cold.</string>
+    <string name="cold_tips">Temperatures in this range can still be uncomfortable if you\'re not properly dressed. Outdoor activities may be impacted.</string>
+    <string name="cool">Cool.</string>
+    <string name="cool_tips">This is a comfortable temperature range for many people, but it can still feel chilly if there\'s a strong wind or if you\'re not dressed warmly enough.</string>
+    <string name="mild">Mild.</string>
+    <string name="mild_tips">This is a pleasant temperature range for most people, and it\'s typically comfortable for outdoor activities.</string>
+    <string name="warm">Warm.</string>
+    <string name="warm_tips">Temperatures in this range can feel hot and uncomfortable, particularly if the humidity is high.</string>
+    <string name="hot">Hot.</string>
+    <string name="hot_tips">At these temperatures, it\'s important to take precautions to avoid heat exhaustion or heat stroke, particularly if you\'re engaging in physical activity or spending time in direct sunlight.</string>
+
+</resources>
